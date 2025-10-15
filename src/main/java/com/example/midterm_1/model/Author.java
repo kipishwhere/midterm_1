@@ -2,11 +2,13 @@ package com.example.midterm_1.model;
 
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import lombok.Data;
+import org.springframework.boot.autoconfigure.AutoConfigurationPackage;
 
+@AutoConfigurationPackage
+@Data
 @AllArgsConstructor
 @NoArgsConstructor
-@SpringBootApplication
 
 
 public class Author {
